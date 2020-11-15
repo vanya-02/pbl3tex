@@ -1,0 +1,112 @@
+% LaTeX documentstyle option to start numbering at zero (where appropriate)
+%
+% Tom Verhoeff
+% Department of Mathematics and Computing Science
+% Eindhoven University of Technology
+% The Netherlands
+% E-mail: <wstomv@win.tue.nl>
+%
+\def\filedate{19 June 1991}
+%
+\typeout{Documentstyle option `zero': start numbering at zero.  <\filedate>}
+%
+% USAGE
+%
+% Include `zero' in the list of documentstyle options.
+% This initializes all existing counters such that numbering, where appropriate,
+% starts at zero (instead of one).  Numbering still starts at one for
+%    (i)  footnotes on the title page,
+%   (ii)  parts,
+%  (iii)  footnotes in minipages,
+%   (iv)  enumerated lists nested two levels or deeper,
+% since these use a non-arabic numbering format.
+% Furthermore, newly defined counters will be initialized such that numbering
+% starts at zero.  When you change the numbering format of a counter to
+% non-arabic, it is advisable to change the initial value to one as well.
+%
+% To change the initial value of counter <cntr> use
+%    \initcounter{<cntr>}{<value>}
+% This also resets the counter to its (new) initial value.
+% For example, page numbering can be start at one by \initcounter{page}{1}.
+% N.B.  All counters, except page for page numbering, have a value ONE LESS
+% than the next number produced.  So to start numbering at one for enumerated
+% lists at the outermost level use \initcounter{enumi}{0}.
+%
+% To reset counter <cntr> to its (current) initial value use
+%    \resetcounter{<cntr>}
+%
+% IMPLEMENTATION DETAILS
+%
+% New macros: \initcounter, \resetcounter
+%
+% The macro \initcounter{<cntr>}{<value>} records <value> as the initial
+% value of the numbering counter <cntr>, and resets <cntr>.
+% The initial value of <cntr> is stored in the control sequence \ci@<cntr>.
+% The macro \resetcounter{<cntr>} resets <cntr> to its initial value \ci@<cntr>.
+%
+% The macros \@stpelt, \@definecounter, \usercounter, \pagenumbering,
+% \maketitle, and \@iminipage have been redefined to use \initcounter or
+% \resetcounter.
+%
+% The macro \appendix needs no revision, even though it sets the counters
+% (chapter,) section and subsection to 0.  The section counter (cq. chapter
+% counter for report and book) is printed in Alpha and consequently should
+% indeed be reset to 0.  The subsection counter (and section counter for
+% report and book) is reset appropriately whenever the section (cq. chapter)
+% counter is stepped.  Only if sectioning is done incorrectly,
+% e.g. by starting the appendix with a subsection, then numbering may also
+% be done incorrectly.
+%
+\def\resetcounter#1{\setcounter{#1}{\csname ci@#1\endcsname}}
+\def\initcounter#1#2{% set initial value for counter
+  \global\expandafter\let\csname ci@#1\endcsname#2\relax
+  \resetcounter{#1}}
+\let\@stpelt\resetcounter
+\def\@definecounter#1{%
+  \expandafter\newcount\csname c@#1\endcsname%
+  \initcounter{#1}{\m@ne}%
+  \expandafter\gdef\csname cl@#1\endcsname{}%
+  \@addtoreset{#1}{@ckpt}%
+  \expandafter\gdef\csname p@#1\endcsname{}%
+  \expandafter\gdef\csname the#1\endcsname{\arabic{#1}}}
+\def\usecounter#1{\@nmbrlisttrue\def\@listctr{#1}\resetcounter{#1}}
+\def\pagenumbering#1{\resetcounter{page}%
+  \gdef\thepage{\csname @#1\endcsname\c@page}}
+\let\@ldmaketitle=\maketitle% save old \maketitle macro
+\def\maketitle{%
+  \setcounter{footnote}{0}% because \thanks uses symbolic footnote marks
+  \@ldmaketitle%
+  \resetcounter{footnote}}
+\def\@iminipage[#1]#2{\leavevmode \@pboxswfalse
+   \if #1b\vbox 
+     \else \if #1t\vtop 
+              \else \ifmmode \vcenter 
+                        \else \@pboxswtrue $\vcenter
+                     \fi
+           \fi
+    \fi\bgroup
+    \hsize #2\textwidth\hsize \columnwidth\hsize
+    \@parboxrestore 
+    \def\@mpfn{mpfootnote}\def\thempfn{\thempfootnote}\resetcounter{mpfootnote}
+    \let\@footnotetext\@mpfootnotetext
+    \let\@listdepth\@mplistdepth \@mplistdepth\z@
+    \@minipagerestore\global\@minipagetrue %% \global added 24 May 89
+    \everypar{\global\@minipagefalse\everypar{}}}
+
+%
+% Reinitialize already existing counters to -1 so as to start counting at 0,
+% EXCEPT FOR:
+%  * page numbers, because the page count has no lag.  Reinitialized at 0.
+%  * part numbers, minipage footnote numbers, and enumerated environments
+%    nested 2 or deeper, because they do not use the arabic format.
+%    Reinitialized at 0.
+%
+{\def\@elt#1{\initcounter{#1}{\m@ne}}\cl@@ckpt}
+\initcounter{page}{\z@}
+\initcounter{part}{\z@}
+\initcounter{mpfootnote}{\z@}
+\initcounter{enumii}{\z@}
+\initcounter{enumiii}{\z@}
+\initcounter{enumiv}{\z@}
+%
+% End of file zero.sty

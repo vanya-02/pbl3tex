@@ -4,6 +4,7 @@
 \usepackage{pdfpages}
 \usepackage{eso-pic}
 \usepackage[english,romanian]{babel}
+\usepackage{verbatim}
 
 \begin{document}
 
@@ -17,9 +18,11 @@
 \setcounter{secnumdepth}{4}
 
 % The table of contents page in not numbered
+\tableofcontents
 \addtocontents{toc}{\protect\thispagestyle{empty}} 
 \cleardoublepage
 
+\phantomsection
 \addcontentsline{toc}{section}{Introduction}
 \input{introduction.tex}
 \cleardoublepage
@@ -27,6 +30,7 @@
 \input{content.tex}
 \cleardoublepage
 
+\phantomsection
 \addcontentsline{toc}{section}{Conclusion}
 \input{conclusion.tex}
 \cleardoublepage

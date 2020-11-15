@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\thispagestyle {empty}
+\contentsline {section}{Introduction}{2}{}%
+\contentsline {subsection}{\numberline {0.1}Solution concept}{2}{}%
+\contentsline {subsection}{\numberline {0.2}Motivation}{2}{}%
+\contentsline {section}{\numberline {1}Section 3}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Subsection}{3}{}%
+\contentsline {section}{Conclusion}{4}{}%
+\contentsline {section}{References}{5}{}%
