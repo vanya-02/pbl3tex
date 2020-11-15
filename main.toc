@@ -2,9 +2,18 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \thispagestyle {empty}
-\contentsline {section}{\numberline {1}Introduction}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Problem formulation}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Solution concept}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Motivation}{2}{}%
-\contentsline {section}{\numberline {2}Section 3}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Subsection}{3}{}%
+\contentsline {section}{\numberline {1}Abstract}{2}{}%
+\contentsline {section}{\numberline {2}Introduction}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Problem formulation}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Solution concept}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Motivation}{3}{}%
+\contentsline {section}{\numberline {3}Domain Analysis}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Impact of the problem over the domain of study}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Target group}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Customer validation}{4}{}%
+\contentsline {subsection}{\numberline {3.4}Competition}{4}{}%
+\contentsline {section}{\numberline {4}System Design}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Impact of the problem over the domain of study}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Target group}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Customer validation}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Competition}{5}{}%
