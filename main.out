@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Problem formulation}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Solution concept}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Motivation}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Domain Analysis}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Impact of the problem over the domain of study}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Target group}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Customer validation}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Competition}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{System Design}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Objectives}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Requirements specification}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{UML Diagrams}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Use case}{subsection.4.3}% 15
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Component}{subsection.4.3}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Sequence}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Implementation}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Solution Strategy}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Architecture decisions}{subsection.5.1}% 20
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Technology stack}{subsection.5.1}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Project initialization}{section.5}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Task management/distribution}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Distributed Version Control of the involved repositories}{subsection.5.2}% 24
