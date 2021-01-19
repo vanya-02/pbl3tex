@@ -87,23 +87,53 @@ CORS - Cross-origin resource sharing is a mechanism that allows restricted resou
 \subsection{UML Diagrams}
 \subsubsection{Use case}
 \par
-\includegraphics[width=\textwidth]{diagramusecase1}
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{diagramusecase1}
+	\caption{Use case diagram}
+\end{figure}
+\par 
+
 \par
-\includegraphics[width=\textwidth]{diagramusecase2}
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{diagramusecase2}
+	\caption{Use case diagram}
+\end{figure}
 \subsubsection{Component}
 \par
-\includegraphics[width=\textwidth]{componentdigram1}
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{componentdigram1}	
+	\caption{Component diagram}
+\end{figure}
+
 \subsection{Sequence}
 \par
-\includegraphics[width=\textwidth]{secuence digrram1}
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{secuence digrram1}
+	\caption{Sequence diagram}	
+\end{figure}
+\par In the following sequence diagram we are going to detail the interaction between components within login action. Suppose that it is a potential user that wants to login into our application. For the starting point he should access the signin form and complete it with credentials. These should be validated in the auth component by querying the database for that data. If data is validated the user is login successfully.
 \par
-\includegraphics[width=\textwidth]{secuence digrram2}
-\par 
-\includegraphics[width=\textwidth]{Sequence_Diagram3}
-\par 
-\includegraphics[width=\textwidth]{Sequence_Diagram4}
 
-\par The authorization sequence begins when  application redirects a browser to a Google URL; the URL includes query parameters that indicate the type of access being requested. Google handles the user authentication, session selection, and user consent. The result is an authorization code, which the application can exchange for an access token and a refresh token.
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{secuence digrram2}
+	\caption{Sequence diagram}
+\end{figure}
+\par The second sequence diagram reflects the to-do plugin. The user should enter the to-do menu where he gets the list of all activities to complete from the database. He also can add and modify new events  from to-do form by adding them to the database and showing them afterwards.
+\par 
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{Sequence_Diagram3}
+	\caption{Sequence diagram}	
+\end{figure}
+\par In the following sequence diagram we are going to detail the interaction between components within the Event requesting process. Every user then wants to create and introduce an event in the calendar has to open an event request window where he introduces information about time and description of this event, after request is checking the disponibility of this date, if an available event is introduced in the calendar. After the event is added an email alert is created which says details about the event. 
+
+\par 
+\begin{figure}[h]
+	\includegraphics[width=\textwidth]{Sequence_Diagram4}
+	\caption{Sequence diagram}	
+\end{figure}
+
+
+\par (2)The authorization sequence begins when  application redirects a browser to a Google URL; the URL includes query parameters that indicate the type of access being requested. Google handles the user authentication, session selection, and user consent. The result is an authorization code, which the application can exchange for an access token and a refresh token.
 
 The application should store the refresh token for future use and use the access token to access a Google API. Once the access token expires, the application uses the refresh token to obtain a new one.
 
@@ -112,10 +142,14 @@ The application should store the refresh token for future use and use the access
 \includegraphics[width=\textwidth]{Activity_Diagram}
 \subsection{Class}
 \par
-\includegraphics[width=\textwidth]{ClassDigram}
-\par
 \includegraphics[width=\textwidth]{ClassDigram2}
-\par
-\includegraphics[width=\textwidth]{ClassDigram3}
+\par 
+\begin{figure}[htbp]
+	\includegraphics[width=\textwidth] {ClassDigram3}
+	\caption{Class diagram}	
+\end{figure}
+
+\par The following class diagram reflects how the main components interact with each other. day\underline{ }organizer is the main namespace that contains day\underline{ }organizer.models, day\underline{ }organizer.auth, day\underline{ }organizer.calendar, day\underline{ }organizer.plugins, day\underline{ }organizer.plugins, day\underline{ }organizer.models.py.And all these components contains \underline{ }init\underline{ }.py and view.py files accordingly.
+
 
 \clearpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.22)  16 JAN 2021 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.22)  19 JAN 2021 04:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -826,28 +826,28 @@ been already used, duplicate ignored
 l.25 \cleardoublepage
                       [1
 
-] (abstract.tex) [2
+] [2] (abstract.tex) [3
 
 ] (introduction.tex
 (C:\Users\Home-PC\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-[3
+[4
 
 ] (C:\Users\Home-PC\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-[4] [5]) (domain.tex [6
+[5] [6]) (domain.tex [7
 
 
 ]
-<./Images//fotka1.png, id=201, 900.966pt x 546.843pt>
+<./Images//fotka1.png, id=215, 900.966pt x 546.843pt>
 File: ./Images//fotka1.png Graphic file (type png)
 <use ./Images//fotka1.png>
 Package pdftex.def Info: ./Images//fotka1.png  used on input line 39.
 (pdftex.def)             Requested size: 512.14963pt x 310.85265pt.
- [7 <./Images//fotka1.png>]
-<./Images//General_CalendarUsage_Statistic.png, id=208, 676.77844pt x 383.18156
+ [8 <./Images//fotka1.png>]
+<./Images//General_CalendarUsage_Statistic.png, id=222, 676.77844pt x 383.18156
 pt>
 File: ./Images//General_CalendarUsage_Statistic.png Graphic file (type png)
 <use ./Images//General_CalendarUsage_Statistic.png>
@@ -859,7 +859,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
-<./Images//TargetGroup1.png, id=209, 1653.17625pt x 695.59875pt>
+<./Images//TargetGroup1.png, id=223, 1653.17625pt x 695.59875pt>
 File: ./Images//TargetGroup1.png Graphic file (type png)
 <use ./Images//TargetGroup1.png>
 Package pdftex.def Info: ./Images//TargetGroup1.png  used on input line 47.
@@ -869,7 +869,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 47--48
 [][] 
  []
 
-<./Images//TargetGroup2.png, id=210, 1653.17625pt x 695.59875pt>
+<./Images//TargetGroup2.png, id=224, 1653.17625pt x 695.59875pt>
 File: ./Images//TargetGroup2.png Graphic file (type png)
 <use ./Images//TargetGroup2.png>
 Package pdftex.def Info: ./Images//TargetGroup2.png  used on input line 49.
@@ -879,9 +879,9 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-[8 <./Images//General_CalendarUsage_Statistic.png> <./Images//TargetGroup1.png>
+[9 <./Images//General_CalendarUsage_Statistic.png> <./Images//TargetGroup1.png>
 ]
-<./Images//TargetGroup3.png, id=217, 1653.17625pt x 695.59875pt>
+<./Images//TargetGroup3.png, id=231, 1653.17625pt x 695.59875pt>
 File: ./Images//TargetGroup3.png Graphic file (type png)
 <use ./Images//TargetGroup3.png>
 Package pdftex.def Info: ./Images//TargetGroup3.png  used on input line 52.
@@ -891,7 +891,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 52--53
 [][] 
  []
 
-<./Images//CustomerValidation1.png, id=218, 1653.17625pt x 785.93625pt>
+<./Images//CustomerValidation1.png, id=232, 1653.17625pt x 785.93625pt>
 File: ./Images//CustomerValidation1.png Graphic file (type png)
 <use ./Images//CustomerValidation1.png>
 Package pdftex.def Info: ./Images//CustomerValidation1.png  used on input line 
@@ -902,8 +902,8 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 60--61
 [][] 
  []
 
-[9 <./Images//TargetGroup2.png> <./Images//TargetGroup3.png>]
-<./Images//CustomerValidation2.png, id=225, 1653.17625pt x 695.59875pt>
+[10 <./Images//TargetGroup2.png> <./Images//TargetGroup3.png>]
+<./Images//CustomerValidation2.png, id=239, 1653.17625pt x 695.59875pt>
 File: ./Images//CustomerValidation2.png Graphic file (type png)
 <use ./Images//CustomerValidation2.png>
 Package pdftex.def Info: ./Images//CustomerValidation2.png  used on input line 
@@ -914,7 +914,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 63--64
 [][] 
  []
 
-<./Images//CustomerValidation3.png, id=226, 1653.17625pt x 831.105pt>
+<./Images//CustomerValidation3.png, id=240, 1653.17625pt x 831.105pt>
 File: ./Images//CustomerValidation3.png Graphic file (type png)
 <use ./Images//CustomerValidation3.png>
 Package pdftex.def Info: ./Images//CustomerValidation3.png  used on input line 
@@ -925,8 +925,8 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-[10 <./Images//CustomerValidation1.png> <./Images//CustomerValidation2.png>]
-<./Images//CustomerValidation4.png, id=233, 1653.17625pt x 840.13875pt>
+[11 <./Images//CustomerValidation1.png> <./Images//CustomerValidation2.png>]
+<./Images//CustomerValidation4.png, id=247, 1653.17625pt x 840.13875pt>
 File: ./Images//CustomerValidation4.png Graphic file (type png)
 <use ./Images//CustomerValidation4.png>
 Package pdftex.def Info: ./Images//CustomerValidation4.png  used on input line 
@@ -937,7 +937,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
-<./Images//CustomerValidation5.png, id=234, 1653.17625pt x 840.13875pt>
+<./Images//CustomerValidation5.png, id=248, 1653.17625pt x 840.13875pt>
 File: ./Images//CustomerValidation5.png Graphic file (type png)
 <use ./Images//CustomerValidation5.png>
 Package pdftex.def Info: ./Images//CustomerValidation5.png  used on input line 
@@ -948,23 +948,23 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 72--73
 [][] 
  []
 
-[11 <./Images//CustomerValidation3.png> <./Images//CustomerValidation4.png>]
-<./Images//Google_Calendar.max-1100x1100.png, id=241, 337.26pt x 158.5925pt>
+[12 <./Images//CustomerValidation3.png> <./Images//CustomerValidation4.png>]
+<./Images//Google_Calendar.max-1100x1100.png, id=256, 337.26pt x 158.5925pt>
 File: ./Images//Google_Calendar.max-1100x1100.png Graphic file (type png)
 <use ./Images//Google_Calendar.max-1100x1100.png>
 Package pdftex.def Info: ./Images//Google_Calendar.max-1100x1100.png  used on i
 nput line 80.
 (pdftex.def)             Requested size: 256.07481pt x 120.41779pt.
 
-[12 <./Images//CustomerValidation5.png> <./Images//Google_Calendar.max-1100x110
+[13 <./Images//CustomerValidation5.png> <./Images//Google_Calendar.max-1100x110
 0.png>]
-<./Images//SuperSaaS_Word.png, id=251, 307.8702pt x 119.9682pt>
+<./Images//SuperSaaS_Word.png, id=265, 307.8702pt x 119.9682pt>
 File: ./Images//SuperSaaS_Word.png Graphic file (type png)
 <use ./Images//SuperSaaS_Word.png>
 Package pdftex.def Info: ./Images//SuperSaaS_Word.png  used on input line 118.
 (pdftex.def)             Requested size: 256.07481pt x 99.79323pt.
- [13 <./Images//SuperSaaS_Word.png (PNG copy)>]
-<./Images//1200px-Microsoft_Office_Outlook_(2018–present).svg.png, id=258, 44
+ [14 <./Images//SuperSaaS_Word.png (PNG copy)>]
+<./Images//1200px-Microsoft_Office_Outlook_(2018–present).svg.png, id=272, 44
 9.34715pt x 196.96384pt>
 File: ./Images//1200px-Microsoft_Office_Outlook_(2018–present).svg.png Graphi
 c file (type png)
@@ -972,171 +972,148 @@ c file (type png)
 Package pdftex.def Info: ./Images//1200px-Microsoft_Office_Outlook_(2018–pres
 ent).svg.png  used on input line 128.
 (pdftex.def)             Requested size: 256.07481pt x 112.24649pt.
-<./Images//Jorte_Calendar.png, id=259, 513.92pt x 250.9375pt>
+<./Images//Jorte_Calendar.png, id=273, 513.92pt x 250.9375pt>
 File: ./Images//Jorte_Calendar.png Graphic file (type png)
 <use ./Images//Jorte_Calendar.png>
 Package pdftex.def Info: ./Images//Jorte_Calendar.png  used on input line 139.
 (pdftex.def)             Requested size: 256.07481pt x 125.03575pt.
-<./Images//Calendly.jpg, id=260, 663.47874pt x 200.75pt>
+<./Images//Calendly.jpg, id=274, 663.47874pt x 200.75pt>
 File: ./Images//Calendly.jpg Graphic file (type jpg)
 <use ./Images//Calendly.jpg>
 Package pdftex.def Info: ./Images//Calendly.jpg  used on input line 148.
 (pdftex.def)             Requested size: 256.07481pt x 77.48042pt.
- [14 <./Images//1200px-Microsoft_Office_Outlook_(2018–present).svg.png> <./Im
+ [15 <./Images//1200px-Microsoft_Office_Outlook_(2018–present).svg.png> <./Im
 ages//Jorte_Calendar.png> <./Images//Calendly.jpg>]
-<./Images//clockwise-logo.png, id=271, 1806.75pt x 315.1775pt>
+<./Images//clockwise-logo.png, id=285, 1806.75pt x 315.1775pt>
 File: ./Images//clockwise-logo.png Graphic file (type png)
 <use ./Images//clockwise-logo.png>
 Package pdftex.def Info: ./Images//clockwise-logo.png  used on input line 156.
 (pdftex.def)             Requested size: 256.07481pt x 44.66798pt.
-<./Images//reclaimai-logo.png, id=272, 566.115pt x 89.33376pt>
+<./Images//reclaimai-logo.png, id=286, 566.115pt x 89.33376pt>
 File: ./Images//reclaimai-logo.png Graphic file (type png)
 <use ./Images//reclaimai-logo.png>
 Package pdftex.def Info: ./Images//reclaimai-logo.png  used on input line 164.
 (pdftex.def)             Requested size: 256.07481pt x 40.40973pt.
- [15 <./Images//clockwise-logo.png> <./Images//reclaimai-logo.png>]) (system_de
-sign.tex [16
+ [16 <./Images//clockwise-logo.png> <./Images//reclaimai-logo.png>]) (system_de
+sign.tex [17
 
 
-] [17] [18]
-<./images//diagramusecase1.png, id=317, 1987.425pt x 1726.45pt>
+] [18] [19]
+<./images//diagramusecase1.png, id=331, 1987.425pt x 1726.45pt>
 File: ./images//diagramusecase1.png Graphic file (type png)
 <use ./images//diagramusecase1.png>
-Package pdftex.def Info: ./images//diagramusecase1.png  used on input line 90.
+Package pdftex.def Info: ./images//diagramusecase1.png  used on input line 91.
 (pdftex.def)             Requested size: 512.14963pt x 444.88855pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 90--91
-[][] 
- []
-
-[19]
-<./images//diagramusecase2.png, id=322, 2629.825pt x 943.525pt>
+ [20]
+<./images//diagramusecase2.png, id=336, 2629.825pt x 943.525pt>
 File: ./images//diagramusecase2.png Graphic file (type png)
 <use ./images//diagramusecase2.png>
-Package pdftex.def Info: ./images//diagramusecase2.png  used on input line 92.
+Package pdftex.def Info: ./images//diagramusecase2.png  used on input line 98.
 (pdftex.def)             Requested size: 512.14963pt x 183.73468pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 92--93
-[][] 
- []
 
-<./images//componentdigram1.png, id=323, 1204.5pt x 1189.44376pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//componentdigram1.png, id=337, 1204.5pt x 1189.44376pt>
 File: ./images//componentdigram1.png Graphic file (type png)
 <use ./images//componentdigram1.png>
-Package pdftex.def Info: ./images//componentdigram1.png  used on input line 95.
-
+Package pdftex.def Info: ./images//componentdigram1.png  used on input line 104
+.
 (pdftex.def)             Requested size: 512.14963pt x 505.77008pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 95--96
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./images//diagramusecase1.png> <./images//diagramusecase2.png>]
-<./images//secuence digrram1.png, id=330, 2469.225pt x 2003.23407pt>
+<./images//secuence digrram1.png, id=338, 2469.225pt x 2003.23407pt>
 File: ./images//secuence digrram1.png Graphic file (type png)
 <use ./images//secuence digrram1.png>
-Package pdftex.def Info: ./images//secuence digrram1.png  used on input line 98
-.
+Package pdftex.def Info: ./images//secuence digrram1.png  used on input line 11
+1.
 (pdftex.def)             Requested size: 512.14963pt x 415.49521pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 98--99
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./images//componentdigram1.png>]
-<./images//secuence digrram2.png, id=336, 2469.225pt x 2575.37157pt>
+<./images//secuence digrram2.png, id=339, 2469.225pt x 2575.37157pt>
 File: ./images//secuence digrram2.png Graphic file (type png)
 <use ./images//secuence digrram2.png>
-Package pdftex.def Info: ./images//secuence digrram2.png  used on input line 10
-0.
+Package pdftex.def Info: ./images//secuence digrram2.png  used on input line 11
+8.
 (pdftex.def)             Requested size: 512.14963pt x 534.16351pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 100--101
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22 <./images//secuence digrram1.png>]
-<./images//Sequence_Diagram3.jpg, id=342, 702.625pt x 501.875pt>
+<./images//Sequence_Diagram3.jpg, id=340, 702.625pt x 501.875pt>
 File: ./images//Sequence_Diagram3.jpg Graphic file (type jpg)
 <use ./images//Sequence_Diagram3.jpg>
-Package pdftex.def Info: ./images//Sequence_Diagram3.jpg  used on input line 10
-2.
+Package pdftex.def Info: ./images//Sequence_Diagram3.jpg  used on input line 12
+4.
 (pdftex.def)             Requested size: 512.14963pt x 365.85262pt.
+[21 <./images//diagramusecase1.png>]
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 102--103
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./images//secuence digrram2.png>]
-<./images//Sequence_Diagram4.jpg, id=348, 454.69875pt x 385.44pt>
+<./images//Sequence_Diagram4.jpg, id=347, 454.69875pt x 385.44pt>
 File: ./images//Sequence_Diagram4.jpg Graphic file (type jpg)
 <use ./images//Sequence_Diagram4.jpg>
-Package pdftex.def Info: ./images//Sequence_Diagram4.jpg  used on input line 10
-4.
+Package pdftex.def Info: ./images//Sequence_Diagram4.jpg  used on input line 13
+1.
 (pdftex.def)             Requested size: 512.14963pt x 434.14825pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 104--105
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./images//Sequence_Diagram3.jpg>]
-<./images//Activity_Diagram.png, id=354, 797.98125pt x 601.24625pt>
+<./images//Activity_Diagram.png, id=348, 797.98125pt x 601.24625pt>
 File: ./images//Activity_Diagram.png Graphic file (type png)
 <use ./images//Activity_Diagram.png>
-Package pdftex.def Info: ./images//Activity_Diagram.png  used on input line 112
+Package pdftex.def Info: ./images//Activity_Diagram.png  used on input line 142
 .
 (pdftex.def)             Requested size: 512.14963pt x 385.89719pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 112--113
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
-[25 <./images//Sequence_Diagram4.jpg>]
-<./images//ClassDigram.png, id=360, 6030.53pt x 5942.2pt>
-File: ./images//ClassDigram.png Graphic file (type png)
-<use ./images//ClassDigram.png>
-Package pdftex.def Info: ./images//ClassDigram.png  used on input line 115.
-(pdftex.def)             Requested size: 512.14963pt x 504.58163pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 115--116
-[][] 
- []
-
-[26 <./images//Activity_Diagram.png>]
-<./images//ClassDigram2.png, id=366, 1141.26375pt x 1178.4025pt>
+[22 <./images//diagramusecase2.png>]
+<./images//ClassDigram2.png, id=355, 1141.26375pt x 1178.4025pt>
 File: ./images//ClassDigram2.png Graphic file (type png)
 <use ./images//ClassDigram2.png>
-Package pdftex.def Info: ./images//ClassDigram2.png  used on input line 117.
+Package pdftex.def Info: ./images//ClassDigram2.png  used on input line 145.
 (pdftex.def)             Requested size: 512.14963pt x 528.81978pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 117--118
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
-[27 <./images//ClassDigram.png>]
-<./images//ClassDigram3.png, id=372, 1836.8625pt x 1336.995pt>
+<./images//ClassDigram3.png, id=356, 1836.8625pt x 1336.995pt>
 File: ./images//ClassDigram3.png Graphic file (type png)
 <use ./images//ClassDigram3.png>
-Package pdftex.def Info: ./images//ClassDigram3.png  used on input line 119.
+Package pdftex.def Info: ./images//ClassDigram3.png  used on input line 148.
 (pdftex.def)             Requested size: 512.14963pt x 372.78519pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 119--120
-[][] 
+[23 <./images//Activity_Diagram.png>]
+Overfull \hbox (26.92235pt too wide) in paragraph at lines 152--153
+[]\OT1/cmr/m/n/12 The fol-low-ing class di-a-gram re-flects how the main com-po
+-nents in-ter-act with each other. day$[]$organizer
  []
 
-[28 <./images//ClassDigram2.png>] [29 <./images//ClassDigram3.png>])
-(implementation.tex
-<./images//Notio_Logo.png, id=383, 302.12875pt x 167.62625pt>
+
+Overfull \hbox (6.93387pt too wide) in paragraph at lines 152--153
+\OT1/cmr/m/n/12 is the main names-pace that con-tains day$[]$organizer.models, 
+day$[]$organizer.auth, day$[]$organizer.calendar,
+ []
+
+[24 <./images//ClassDigram2.png>] [25 <./images//componentdigram1.png>]
+[26 <./images//secuence digrram1.png>] [27 <./images//secuence digrram2.png>]
+[28 <./images//Sequence_Diagram3.jpg>] [29 <./images//Sequence_Diagram4.jpg>]
+[30 <./images//ClassDigram3.png>]) (implementation.tex
+<./images//Notio_Logo.png, id=404, 302.12875pt x 167.62625pt>
 File: ./images//Notio_Logo.png Graphic file (type png)
 <use ./images//Notio_Logo.png>
 Package pdftex.def Info: ./images//Notio_Logo.png  used on input line 24.
 (pdftex.def)             Requested size: 302.128pt x 167.62582pt.
-<./images//TaskManagment1.png, id=384, 1221.81468pt x 715.17188pt>
+<./images//TaskManagment1.png, id=405, 1221.81468pt x 715.17188pt>
 File: ./images//TaskManagment1.png Graphic file (type png)
 <use ./images//TaskManagment1.png>
 Package pdftex.def Info: ./images//TaskManagment1.png  used on input line 30.
 (pdftex.def)             Requested size: 512.14963pt x 299.79176pt.
-<./images//TaskManagment2.png, id=385, 1215.79219pt x 712.91344pt>
+<./images//TaskManagment2.png, id=406, 1215.79219pt x 712.91344pt>
 File: ./images//TaskManagment2.png Graphic file (type png)
 <use ./images//TaskManagment2.png>
 Package pdftex.def Info: ./images//TaskManagment2.png  used on input line 32.
@@ -1145,110 +1122,116 @@ Package pdftex.def Info: ./images//TaskManagment2.png  used on input line 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+
+ []
+
+[31
 
 
- <./images//Notio_Logo.png>] [31 <./images//TaskManagment1.png> <./images//Task
+ <./images//Notio_Logo.png>] [32 <./images//TaskManagment1.png> <./images//Task
 Managment2.png>]
-<./images//Event.png, id=406, 728.7225pt x 242.9075pt>
-File: ./images//Event.png Graphic file (type png)
-<use ./images//Event.png>
-Package pdftex.def Info: ./images//Event.png  used on input line 46.
-(pdftex.def)             Requested size: 512.14963pt x 170.72348pt.
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 46--47
-[][] 
  []
 
-<./images//event2.png, id=407, 287.0725pt x 162.6075pt>
-File: ./images//event2.png Graphic file (type png)
-<use ./images//event2.png>
-Package pdftex.def Info: ./images//event2.png  used on input line 48.
-(pdftex.def)             Requested size: 512.14963pt x 290.10788pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 48--49
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
  []
 
-<./images//editevent.png, id=408, 848.16875pt x 580.1675pt>
-File: ./images//editevent.png Graphic file (type png)
-<use ./images//editevent.png>
-Package pdftex.def Info: ./images//editevent.png  used on input line 50.
-(pdftex.def)             Requested size: 512.14963pt x 350.33403pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 50--51
-[][] 
- []
-
-[32 <./images//Event.png (PNG copy)> <./images//event2.png (PNG copy)>]
-<./images//new event.png, id=415, 789.95125pt x 389.455pt>
-File: ./images//new event.png Graphic file (type png)
-<use ./images//new event.png>
-Package pdftex.def Info: ./images//new event.png  used on input line 52.
-(pdftex.def)             Requested size: 512.14963pt x 252.495pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 52--53
-[][] 
- []
-
-<./images//schedule.png, id=416, 1927.2pt x 332.24126pt>
-File: ./images//schedule.png Graphic file (type png)
-<use ./images//schedule.png>
-Package pdftex.def Info: ./images//schedule.png  used on input line 54.
-(pdftex.def)             Requested size: 512.14963pt x 88.29192pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 54--55
-[][] 
- []
-
-<./images//singup.png, id=417, 682.55pt x 696.6025pt>
-File: ./images//singup.png Graphic file (type png)
-<use ./images//singup.png>
-Package pdftex.def Info: ./images//singup.png  used on input line 56.
-(pdftex.def)             Requested size: 512.14963pt x 522.72696pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-[33 <./images//editevent.png (PNG copy)> <./images//new event.png (PNG copy)> <
-./images//schedule.png (PNG copy)>]
-<./images//Calendarpng.png, id=422, 1927.2pt x 838.13126pt>
-File: ./images//Calendarpng.png Graphic file (type png)
-<use ./images//Calendarpng.png>
-Package pdftex.def Info: ./images//Calendarpng.png  used on input line 58.
-(pdftex.def)             Requested size: 512.14963pt x 222.73038pt.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 58--59
-[][] 
- []
-
-[34 <./images//singup.png (PNG copy)>]
-<./images//LoginPage.png, id=427, 1927.2pt x 941.5175pt>
+<./images//LoginPage.png, id=428, 1927.2pt x 941.5175pt>
 File: ./images//LoginPage.png Graphic file (type png)
 <use ./images//LoginPage.png>
-Package pdftex.def Info: ./images//LoginPage.png  used on input line 60.
+Package pdftex.def Info: ./images//LoginPage.png  used on input line 57.
 (pdftex.def)             Requested size: 512.14963pt x 250.2049pt.
+<./images//singup.png, id=429, 682.55pt x 696.6025pt>
+File: ./images//singup.png Graphic file (type png)
+<use ./images//singup.png>
+Package pdftex.def Info: ./images//singup.png  used on input line 65.
+(pdftex.def)             Requested size: 512.14963pt x 522.72696pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 60--61
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35 <./images//Calendarpng.png (PNG copy)> <./images//LoginPage.png (PNG copy)>
-])
+<./images//Calendarpng.png, id=430, 1927.2pt x 838.13126pt>
+File: ./images//Calendarpng.png Graphic file (type png)
+<use ./images//Calendarpng.png>
+Package pdftex.def Info: ./images//Calendarpng.png  used on input line 73.
+(pdftex.def)             Requested size: 512.14963pt x 222.73038pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//Event.png, id=431, 728.7225pt x 242.9075pt>
+File: ./images//Event.png Graphic file (type png)
+<use ./images//Event.png>
+Package pdftex.def Info: ./images//Event.png  used on input line 81.
+(pdftex.def)             Requested size: 512.14963pt x 170.72348pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//editevent.png, id=432, 848.16875pt x 580.1675pt>
+File: ./images//editevent.png Graphic file (type png)
+<use ./images//editevent.png>
+Package pdftex.def Info: ./images//editevent.png  used on input line 89.
+(pdftex.def)             Requested size: 512.14963pt x 350.33403pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//event2.png, id=433, 287.0725pt x 162.6075pt>
+File: ./images//event2.png Graphic file (type png)
+<use ./images//event2.png>
+Package pdftex.def Info: ./images//event2.png  used on input line 97.
+(pdftex.def)             Requested size: 512.14963pt x 290.10788pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//new event.png, id=434, 789.95125pt x 389.455pt>
+File: ./images//new event.png Graphic file (type png)
+<use ./images//new event.png>
+Package pdftex.def Info: ./images//new event.png  used on input line 107.
+(pdftex.def)             Requested size: 512.14963pt x 252.495pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//schedule.png, id=435, 1927.2pt x 332.24126pt>
+File: ./images//schedule.png Graphic file (type png)
+<use ./images//schedule.png>
+Package pdftex.def Info: ./images//schedule.png  used on input line 115.
+(pdftex.def)             Requested size: 512.14963pt x 88.29192pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images//editevent.png Graphic file (type png)
+<use ./images//editevent.png>
+Package pdftex.def Info: ./images//editevent.png  used on input line 125.
+(pdftex.def)             Requested size: 512.14963pt x 350.33403pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33 <./images//LoginPage.png (PNG copy)>] [34 <./images//singup.png (PNG copy)>
+] [35 <./images//Calendarpng.png (PNG copy)> <./images//Event.png (PNG copy)>]
+[36 <./images//editevent.png (PNG copy)> <./images//event2.png (PNG copy)>]
+[37 <./images//new event.png (PNG copy)> <./images//schedule.png (PNG copy)>]
+[38]) (Conclusion.tex) [39
+
+
+] (References.tex) [40
+
+]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 123.
 See the caption package documentation for explanation.
 
 (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F4A02B70F525286B0DFDC1B78869136C;2436.
+(rerunfilecheck)             Checksum: 8E31CCE74A3D2EF7DED7358AADFEF348;2528.
  ) 
 Here is how much of TeX's memory you used:
- 15537 strings out of 479832
- 241370 string characters out of 2870113
+ 15564 strings out of 479832
+ 241755 string characters out of 2870113
  647337 words of memory out of 3000000
- 32052 multiletter control sequences out of 15000+200000
+ 32049 multiletter control sequences out of 15000+200000
  547118 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,12n,99p,2034b,787s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1260,9 +1243,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home-PC/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Home-PC/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Hom
 e-PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (36 pages, 5242900 bytes).
+Output written on main.pdf (41 pages, 2671491 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
