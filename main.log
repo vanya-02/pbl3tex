@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.22)  19 JAN 2021 04:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.22)  19 JAN 2021 07:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -999,102 +999,104 @@ sign.tex [17
 
 
 ] [18] [19]
-<./images//diagramusecase1.png, id=331, 1987.425pt x 1726.45pt>
+<./images//diagramusecase1.png, id=332, 1987.425pt x 1726.45pt>
 File: ./images//diagramusecase1.png Graphic file (type png)
 <use ./images//diagramusecase1.png>
-Package pdftex.def Info: ./images//diagramusecase1.png  used on input line 91.
+Package pdftex.def Info: ./images//diagramusecase1.png  used on input line 95.
 (pdftex.def)             Requested size: 512.14963pt x 444.88855pt.
  [20]
-<./images//diagramusecase2.png, id=336, 2629.825pt x 943.525pt>
+<./images//diagramusecase2.png, id=337, 2629.825pt x 943.525pt>
 File: ./images//diagramusecase2.png Graphic file (type png)
 <use ./images//diagramusecase2.png>
-Package pdftex.def Info: ./images//diagramusecase2.png  used on input line 98.
+Package pdftex.def Info: ./images//diagramusecase2.png  used on input line 102.
+
 (pdftex.def)             Requested size: 512.14963pt x 183.73468pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//componentdigram1.png, id=337, 1204.5pt x 1189.44376pt>
+<./images//componentdigram1.png, id=338, 1204.5pt x 1189.44376pt>
 File: ./images//componentdigram1.png Graphic file (type png)
 <use ./images//componentdigram1.png>
-Package pdftex.def Info: ./images//componentdigram1.png  used on input line 104
+Package pdftex.def Info: ./images//componentdigram1.png  used on input line 109
 .
 (pdftex.def)             Requested size: 512.14963pt x 505.77008pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//secuence digrram1.png, id=338, 2469.225pt x 2003.23407pt>
+[21 <./images//diagramusecase1.png>]
+<./images//secuence digrram1.png, id=345, 2469.225pt x 2003.23407pt>
 File: ./images//secuence digrram1.png Graphic file (type png)
 <use ./images//secuence digrram1.png>
-Package pdftex.def Info: ./images//secuence digrram1.png  used on input line 11
-1.
+Package pdftex.def Info: ./images//secuence digrram1.png  used on input line 12
+8.
 (pdftex.def)             Requested size: 512.14963pt x 415.49521pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//secuence digrram2.png, id=339, 2469.225pt x 2575.37157pt>
+<./images//secuence digrram2.png, id=346, 2469.225pt x 2575.37157pt>
 File: ./images//secuence digrram2.png Graphic file (type png)
 <use ./images//secuence digrram2.png>
-Package pdftex.def Info: ./images//secuence digrram2.png  used on input line 11
-8.
+Package pdftex.def Info: ./images//secuence digrram2.png  used on input line 13
+5.
 (pdftex.def)             Requested size: 512.14963pt x 534.16351pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//Sequence_Diagram3.jpg, id=340, 702.625pt x 501.875pt>
+<./images//Sequence_Diagram3.jpg, id=347, 702.625pt x 501.875pt>
 File: ./images//Sequence_Diagram3.jpg Graphic file (type jpg)
 <use ./images//Sequence_Diagram3.jpg>
-Package pdftex.def Info: ./images//Sequence_Diagram3.jpg  used on input line 12
-4.
+Package pdftex.def Info: ./images//Sequence_Diagram3.jpg  used on input line 14
+1.
 (pdftex.def)             Requested size: 512.14963pt x 365.85262pt.
-[21 <./images//diagramusecase1.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//Sequence_Diagram4.jpg, id=347, 454.69875pt x 385.44pt>
+<./images//Sequence_Diagram4.jpg, id=348, 454.69875pt x 385.44pt>
 File: ./images//Sequence_Diagram4.jpg Graphic file (type jpg)
 <use ./images//Sequence_Diagram4.jpg>
-Package pdftex.def Info: ./images//Sequence_Diagram4.jpg  used on input line 13
-1.
+Package pdftex.def Info: ./images//Sequence_Diagram4.jpg  used on input line 14
+8.
 (pdftex.def)             Requested size: 512.14963pt x 434.14825pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//Activity_Diagram.png, id=348, 797.98125pt x 601.24625pt>
+[22 <./images//diagramusecase2.png>]
+<./images//Activity_Diagram.png, id=355, 797.98125pt x 601.24625pt>
 File: ./images//Activity_Diagram.png Graphic file (type png)
 <use ./images//Activity_Diagram.png>
-Package pdftex.def Info: ./images//Activity_Diagram.png  used on input line 142
+Package pdftex.def Info: ./images//Activity_Diagram.png  used on input line 159
 .
 (pdftex.def)             Requested size: 512.14963pt x 385.89719pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 142--143
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
-[22 <./images//diagramusecase2.png>]
-<./images//ClassDigram2.png, id=355, 1141.26375pt x 1178.4025pt>
+<./images//ClassDigram2.png, id=356, 1141.26375pt x 1178.4025pt>
 File: ./images//ClassDigram2.png Graphic file (type png)
 <use ./images//ClassDigram2.png>
-Package pdftex.def Info: ./images//ClassDigram2.png  used on input line 145.
+Package pdftex.def Info: ./images//ClassDigram2.png  used on input line 162.
 (pdftex.def)             Requested size: 512.14963pt x 528.81978pt.
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 145--146
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
-<./images//ClassDigram3.png, id=356, 1836.8625pt x 1336.995pt>
+<./images//ClassDigram3.png, id=357, 1836.8625pt x 1336.995pt>
 File: ./images//ClassDigram3.png Graphic file (type png)
 <use ./images//ClassDigram3.png>
-Package pdftex.def Info: ./images//ClassDigram3.png  used on input line 148.
+Package pdftex.def Info: ./images//ClassDigram3.png  used on input line 165.
 (pdftex.def)             Requested size: 512.14963pt x 372.78519pt.
 [23 <./images//Activity_Diagram.png>]
-Overfull \hbox (26.92235pt too wide) in paragraph at lines 152--153
+Overfull \hbox (26.92235pt too wide) in paragraph at lines 169--170
 []\OT1/cmr/m/n/12 The fol-low-ing class di-a-gram re-flects how the main com-po
 -nents in-ter-act with each other. day$[]$organizer
  []
 
 
-Overfull \hbox (6.93387pt too wide) in paragraph at lines 152--153
+Overfull \hbox (6.93387pt too wide) in paragraph at lines 169--170
 \OT1/cmr/m/n/12 is the main names-pace that con-tains day$[]$organizer.models, 
 day$[]$organizer.auth, day$[]$organizer.calendar,
  []
@@ -1103,17 +1105,17 @@ day$[]$organizer.auth, day$[]$organizer.calendar,
 [26 <./images//secuence digrram1.png>] [27 <./images//secuence digrram2.png>]
 [28 <./images//Sequence_Diagram3.jpg>] [29 <./images//Sequence_Diagram4.jpg>]
 [30 <./images//ClassDigram3.png>]) (implementation.tex
-<./images//Notio_Logo.png, id=404, 302.12875pt x 167.62625pt>
+<./images//Notio_Logo.png, id=405, 302.12875pt x 167.62625pt>
 File: ./images//Notio_Logo.png Graphic file (type png)
 <use ./images//Notio_Logo.png>
 Package pdftex.def Info: ./images//Notio_Logo.png  used on input line 24.
 (pdftex.def)             Requested size: 302.128pt x 167.62582pt.
-<./images//TaskManagment1.png, id=405, 1221.81468pt x 715.17188pt>
+<./images//TaskManagment1.png, id=406, 1221.81468pt x 715.17188pt>
 File: ./images//TaskManagment1.png Graphic file (type png)
 <use ./images//TaskManagment1.png>
 Package pdftex.def Info: ./images//TaskManagment1.png  used on input line 30.
 (pdftex.def)             Requested size: 512.14963pt x 299.79176pt.
-<./images//TaskManagment2.png, id=406, 1215.79219pt x 712.91344pt>
+<./images//TaskManagment2.png, id=407, 1215.79219pt x 712.91344pt>
 File: ./images//TaskManagment2.png Graphic file (type png)
 <use ./images//TaskManagment2.png>
 Package pdftex.def Info: ./images//TaskManagment2.png  used on input line 32.
@@ -1141,12 +1143,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<./images//LoginPage.png, id=428, 1927.2pt x 941.5175pt>
+<./images//LoginPage.png, id=429, 1927.2pt x 941.5175pt>
 File: ./images//LoginPage.png Graphic file (type png)
 <use ./images//LoginPage.png>
 Package pdftex.def Info: ./images//LoginPage.png  used on input line 57.
 (pdftex.def)             Requested size: 512.14963pt x 250.2049pt.
-<./images//singup.png, id=429, 682.55pt x 696.6025pt>
+<./images//singup.png, id=430, 682.55pt x 696.6025pt>
 File: ./images//singup.png Graphic file (type png)
 <use ./images//singup.png>
 Package pdftex.def Info: ./images//singup.png  used on input line 65.
@@ -1154,7 +1156,7 @@ Package pdftex.def Info: ./images//singup.png  used on input line 65.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//Calendarpng.png, id=430, 1927.2pt x 838.13126pt>
+<./images//Calendarpng.png, id=431, 1927.2pt x 838.13126pt>
 File: ./images//Calendarpng.png Graphic file (type png)
 <use ./images//Calendarpng.png>
 Package pdftex.def Info: ./images//Calendarpng.png  used on input line 73.
@@ -1162,7 +1164,7 @@ Package pdftex.def Info: ./images//Calendarpng.png  used on input line 73.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//Event.png, id=431, 728.7225pt x 242.9075pt>
+<./images//Event.png, id=432, 728.7225pt x 242.9075pt>
 File: ./images//Event.png Graphic file (type png)
 <use ./images//Event.png>
 Package pdftex.def Info: ./images//Event.png  used on input line 81.
@@ -1170,7 +1172,7 @@ Package pdftex.def Info: ./images//Event.png  used on input line 81.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//editevent.png, id=432, 848.16875pt x 580.1675pt>
+<./images//editevent.png, id=433, 848.16875pt x 580.1675pt>
 File: ./images//editevent.png Graphic file (type png)
 <use ./images//editevent.png>
 Package pdftex.def Info: ./images//editevent.png  used on input line 89.
@@ -1178,7 +1180,7 @@ Package pdftex.def Info: ./images//editevent.png  used on input line 89.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//event2.png, id=433, 287.0725pt x 162.6075pt>
+<./images//event2.png, id=434, 287.0725pt x 162.6075pt>
 File: ./images//event2.png Graphic file (type png)
 <use ./images//event2.png>
 Package pdftex.def Info: ./images//event2.png  used on input line 97.
@@ -1186,7 +1188,7 @@ Package pdftex.def Info: ./images//event2.png  used on input line 97.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//new event.png, id=434, 789.95125pt x 389.455pt>
+<./images//new event.png, id=435, 789.95125pt x 389.455pt>
 File: ./images//new event.png Graphic file (type png)
 <use ./images//new event.png>
 Package pdftex.def Info: ./images//new event.png  used on input line 107.
@@ -1194,7 +1196,7 @@ Package pdftex.def Info: ./images//new event.png  used on input line 107.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//schedule.png, id=435, 1927.2pt x 332.24126pt>
+<./images//schedule.png, id=436, 1927.2pt x 332.24126pt>
 File: ./images//schedule.png Graphic file (type png)
 <use ./images//schedule.png>
 Package pdftex.def Info: ./images//schedule.png  used on input line 115.
@@ -1228,8 +1230,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8E31CCE74A3D2EF7DED7358AADFEF348;2528.
  ) 
 Here is how much of TeX's memory you used:
- 15564 strings out of 479832
- 241755 string characters out of 2870113
+ 15565 strings out of 479832
+ 241762 string characters out of 2870113
  647337 words of memory out of 3000000
  32049 multiletter control sequences out of 15000+200000
  547118 words of font info for 75 fonts, out of 3000000 for 9000
@@ -1243,9 +1245,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home-PC/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Home-PC/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Hom
 e-PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (41 pages, 2671491 bytes).
+Output written on main.pdf (41 pages, 2673540 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
  463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

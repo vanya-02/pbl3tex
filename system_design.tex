@@ -50,12 +50,16 @@
 		\item Todo API 
 		\item Configuration Component 
 		\item Authentication/Authorization Component 
-		\item User, Calendar, Plugin, Weather and Todo Entities. 
+		\item User, Calendar, Plugin, Weather and Todo Entities.
+		\item Companion component  
 	\end{enumerate}
 \par Firstly, we created three different API’s to get the highest flexibility and scalability from our application. Thanks to this design, we can easily distribute this project to team members and even better, any errors related to Calendar API side won’t get messed up with Weather API or Todo API. It results in more structured code, esthetically more beautiful endpoints and of course, it is easier to create updates, because if Todo API needs update, Weather API won’t need it.  
 \par Configuration Component is a must for development control. Every application needs to set up environment variables and e.t.c., and for development and production they will differ. This is why there is a need in this specific component. 
 \par Authentication/Authorization Component is created to handle authorization and authentication process which will be used on other components/API’s later.  
 \par Entities are database components. By following database normalization principles, we created different entities which correspond to the API working with them. 
+
+
+
 \subsection{System components interactions. Description of how system components interact with each other, which technologies and protocols are used and which data payload and data format is used for system intercommunication. }
 \par Modular Organizer can be divided into client and server parts. Client consists of html/css, javascript (React JS) and server is represented by python, gunicorn, nginx and mysql. Backend is further divided into plugin, calendar, weather and todo API’s. All of this is working under REST architectural style, where data transmission is realized via JSON and HTTP protocols. As it is known, HTTP has a pretty wide range of methods, however our project mostly depends on GET, POST, PUT and DELETE methods. The biggest difference between these methods is their purpose and existence of payload in POST. So, strictly speaking our user interacts via client (front end) with server API’s, which uses Nginx and Gunicorn to work with HTTP and WSGI, where last of these is needed for python. For example, user wants to see his/her calendar records for this month on the website. Client makes GET request to the server endpoint under calendar API. As most calendars use ISO8601 standard for datetime representation (like YYYY-MM-DDTHH:MM:SSZ) and Odata V4 protocol to work with data our project has it implemented in our endpoints too. Then server gets this request, it seeks for the time boundaries of calendar records from query string. After, our server connects to the database, finds all suitable fields, packs it into JSON and creates a response with a status code 200 (OK), required headers and JSON in it. As our front end and back end is placed on two different subdomains, we have to additionally allow CORS. It is pretty important to mention that our project has fully working Authentication system which uses JWT (JSON Web Token) to create access and refresh httponly cookies. Also, it is well-known that cookies are vulnerable to CSRF attacks. So, we decided to implement CSRF Double Submit Cookie Pattern and we will also implement 2FA (Two-Factor Authentication) later on. Now let's speak more in-depth about techniques and technologies we used in our project. 
 \par HTTP - Stands for "Hypertext Transfer Protocol." HTTP is the protocol used to transfer data over the web. It is part of the Internet protocol suite and defines commands and services used for transmitting webpage data.
@@ -91,19 +95,32 @@ CORS - Cross-origin resource sharing is a mechanism that allows restricted resou
 	\includegraphics[width=\textwidth]{diagramusecase1}
 	\caption{Use case diagram}
 \end{figure}
-\par 
+\par In first Use case diagram we can see that a user can get multiple functionality of Main menu from home page, functionalities like to-do list and priority list with its functionalities.
 
 \par
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{diagramusecase2}
 	\caption{Use case diagram}
 \end{figure}
+\par In second Use case diagram user obtain the abilities to import or to export to-do list through organizer menu, user is capable of choosing the source of importing or exporting.
 \subsubsection{Component}
 \par
 \begin{figure}[h]
 	\includegraphics[width=\textwidth]{componentdigram1}	
 	\caption{Component diagram}
 \end{figure}
+\par MVP Requirements are the Minimum Valuable Product Requirements that we established at the middle of semester: 
+\begin{itemize}
+	\item Custom plugins support like:weather, time, to-do list, map events
+	\item Connection between frontend and backend
+	\item User authentication and validation
+	\item Agenda that contains all upcoming activities
+	\item Dashboard that can be viewed in day, week, work week and month mode.
+	
+\end{itemize}
+
+And according to this MVP we can have different modules of smaller parts of our application, based on plugins we want to implement and all requirements are linked to them as an example weather plugin which should be integrated with the help of an API.
+
 
 \subsection{Sequence}
 \par
